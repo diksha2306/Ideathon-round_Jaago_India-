@@ -15,7 +15,7 @@ async function getdata(){
     const aqi = jsondata.data.current.pollution.aqius;
     console.log(aqi);
     console.log(city[i]);
-    // var aqi=200;
+
     if(aqi>=0 && aqi<=50){
         boxlist[i].style.background="green";
     }else if(aqi>=51 && aqi<=100){
